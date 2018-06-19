@@ -1,10 +1,8 @@
 import {combineReducers} from 'redux';
-import UserReducer from './reducer-users';
-import ActiveUserReducer from './reducer-active-user';
+import  menudisplay from './reducer-menu-display';
 
 const allReducers =combineReducers(
 {
-	users: UserReducer,
-	activeUser:ActiveUserReducer
+	menudisplay:menudisplay;
 });
 export default allReducers
