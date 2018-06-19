@@ -3,19 +3,34 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
 class Menu extends Component {
+	
 	render(){
-		<div>
-		<ul>
-		<li key={} onClick={}><a href="#">HOME</a></li>
-		<li key={} onClick={}><a href="#">WORK</a></li>
-		<li key={} onClick={}><a href="#">ABOUT</a></li>
-		<li key={} onClick={}><a href="#">CONTACT</a></li>
-		</ul>
-		</div>
+		if(!this.props.menudisplay)
+		{
+			return (
+					<div>
+					<h1>Hi my name is abhishek jassal</h1>
+					</div>
+				);
+		}
+		return(
+			<div>
+			<ul>
+			 <li key="home">Home</li>
+			 <li key="About">About</li>
+			 <li key="Work">Work</li>
+			 <li key="Contact">Contact</li>
+			</ul>
+			</div>
+
+			);
+	
 	}
 }
 function mapStateToProps(state)
 {
-
+	return{
+	menudisplay:state.menudisplay
+	};
 }
-export default connect(mapStateToProps)(header);
+export default connect(mapStateToProps)(Menu);

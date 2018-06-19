@@ -3,6 +3,6 @@ import  menudisplay from './reducer-menu-display';
 
 const allReducers =combineReducers(
 {
-	menudisplay:menudisplay;
+	menudisplay:menudisplay
 });
-export default allReducers
+export default allReducers;

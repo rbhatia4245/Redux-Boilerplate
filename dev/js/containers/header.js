@@ -1,24 +1,21 @@
 import React,{Component} from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
+import {selectMenu} from '../actions/menubutton';
 
 class header extends Component {
-	var visibility='false;'
 	render(){
+		return(
 		<div>
-			<span><h1>Abhishek Jassal</h1></span>
-			<span><button type="submit" onMouseDown={this.toggleMenu()}>MENU</button></span>
+			<h1>Abhishek Jassal</h1>
+			<button onClick={() => this.props.selectMenu()} >MENU</button>
 		</div>
+		);
 	}
-	toggleMenu(){
-		if(visibility)
-		{
-			this.props.
-		}
-	}
+	
 }
-function mapStateToProps(state)
+function mapDispatchToProps(dispatch)
 {
-	menudisplay:state.menudisplay
+	return bindActionCreators({selectMenu:selectMenu},dispatch);
 }
-export default connect(mapStateToProps)(header);
+export default connect(mapDispatchToProps)(header);
