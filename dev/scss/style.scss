@@ -1,5 +1,152 @@
-$primary: #006699;
+*{
+	padding:0;
+	margin:0;
+}
+#head{
+	width:100%;
+	height:44px;
+	background-color:#000000;
+	color:#ffffff;
+	opacity:0.7;
+	margin:0;	
+}
+#head h1{
+	  width: 170px;
+  height: 19px;
+  padding-top: 12.5px;
+  padding-left:100px;
+  float:left;
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3.2px;
+  text-align: center;
+  color:#ffffff;
+}
+#head button{
+	  width:170px;
+  height:19px;
+  padding-top:14px;
+  padding-right:98px;
+  float:right;
+  font-family: 'Source Sans Pro';
+  font-size:15px;
+  font-weight:900;
+  font-stretch: normal;
+  line-height:normal;
+  letter-spacing:3.2 px;
+  text-align:center;
+  color:#ffffff;
+  background-color: #000000;
+  border:none;
+  outline: none;
+}
+#intro{
+  width:100vw;
+  height:100vh;
+  background-color:#0d0d0d;
+  color:#ffffff;
+  padding-top:350px;
+}
+#menu{
+  color:#ffffff;
+  width:100vw;
+  height:100vh;
+  background-color: #0d0d0d;
+  position:fixed;
+  top:44px;
+  left:0;
+  transition: transform .3s cubic-bezier(0, .52, 0, 1);
+  z-index:1000;  
+  transform: translate3d(0vw,0,0);
+  overflow:hidden;
+}
+#hello{
+  padding-top:35px;
+  padding-left:114px;
+  width:220px;
+  height:25px;
+  font-family:'Source Sans Pro';
+  font-size:20px;
+   font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 4.2px;
+  text-align: left;
+  color: #ffffff;
+}
+#abhishek{
+  padding-left:112px;
+  padding-right:833px;
+  width:495px;
+  height:267px;
+  font-family:Anton;
+  font-size:140px;
+  font-weight:normal;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:0.95;
+  letter-spacing:normal;
+  text-align:left;
+  color:#ffffff;
+}
+#visualdesigner{
+  padding-top:20px;
+  padding-left:112px;
+  width: 385px;
+  height: 25px;
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 5.5px;
+  text-align: left;
+  color: #ffffff;
+}
+#menu ul{
+  margin-top:80px;
+}
+#menu li{
+   width: 301px;
+  height: 133px;
+  opacity: 0.1;
+  font-family: Anton;
+  font-size: 140px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.95;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding-left:169px;
+  padding-bottom:20px;
+}
+#menu li:hover{
+  opacity:1
+}
+#menu li:active{
+  opacity:1
+}
+#menu p{
+  width:21px;
+  height:30px;
+  color:#ffffff;
+  margin-top:55px;
+  margin-left:790px;
+  text-align:center;
+  line-spacing:1px;
+  line-height:normal;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
 
-h2 {
-	color: $primary;
 }

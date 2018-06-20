@@ -3,6 +3,9 @@ export default function(state = null, action) {
 		case 'MENU_CLICKED':
 			return 1;
 			break;
+			case 'MENU_AREA':
+			return null;
+			break;
 	}
 	return state;
 }
