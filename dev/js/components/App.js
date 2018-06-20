@@ -1,12 +1,13 @@
 import React from 'react';
-import header from '../containers/header';
+import Header from '../containers/header';
 import Menu from '../containers/menu';
 
 const App = () => (
     <div>
-    <header />
+    <Header />
     <Menu />
     </div>
 );
 
 export default App;
+
