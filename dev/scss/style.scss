@@ -2,6 +2,14 @@
 	padding:0;
 	margin:0;
 }
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 #head{
 	width:100%;
 	height:44px;
@@ -46,23 +54,23 @@
 }
 #intro{
   width:100vw;
-  height:100vh;
+  height:40vh;
   background-color:#0d0d0d;
   color:#ffffff;
-  padding-top:350px;
+  padding-top:300px;
+  padding-bottom:50px;
+  overflow:hidden;
 }
 #menu{
   color:#ffffff;
   width:100vw;
   height:100vh;
   background-color: #0d0d0d;
-  position:fixed;
   top:44px;
-  left:0;
-  transition: transform .3s cubic-bezier(0, .52, 0, 1);
+ animation: 0.5s ease-out 0s 1 slideInFromLeft;
   z-index:1000;  
   transform: translate3d(0vw,0,0);
-  overflow:hidden;
+  overflow:scroll;
 }
 #hello{
   padding-top:35px;

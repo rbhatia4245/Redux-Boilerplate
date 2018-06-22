@@ -14,9 +14,6 @@ class Menu extends Component {
 				</div>
 				);
 		}
-
-				
-
 				return(
 			<div id="menu">
 			<ul>
@@ -25,7 +22,7 @@ class Menu extends Component {
 			 <li key="Work" onClick={()=>this.props.clickMenu()}> Work</li>
 			 <li key="Contact" onClick={()=>this.props.clickMenu()}>Contact</li>
 			</ul>
-			<p classname="inneraj">AJ</p>
+			<p className="inneraj">AJ</p>
 			</div>
 
 			);
