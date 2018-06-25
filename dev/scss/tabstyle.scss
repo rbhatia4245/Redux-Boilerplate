@@ -5,32 +5,38 @@
 .tabs{
 	background-color:#000000;
 	padding-top:43px;
-	padding-bottom:43px;
 	color:#ffffff;
-	height:140px;
+	height:60px;
 }
 .tabs button{
 	background-color:#000000;
-	text-align:left;
 	color:#ffffff;
-	border-style:none;
 	font-family:'Source Sans Pro';
 	 font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  width:9vw;
+  width:20vw;
   height:40px;
+  outline:none;
+  transition: border-style 0.3s ease-in;
 	
 }
-.tabs button:active{
-	border-bottom-style:solid;
-	border-bottom-color:#ffffff;
-}
-.tabs #films{
+ .films-active{
+ 	border-style: none;
+	border-bottom-style: solid;
+	border-bottom-color: #ffffff;
 	margin-left:37vw;
-	margin-right:3vw;
 }
-.tabs #visuals{
-	margin-left:44px;
+.films{
+	border-style: none;
+	margin-left:37vw;
+	}
+.visuals{
+	border-style: none;
+}
+.visuals-active{
+	border-style: none;
+	border-bottom-style: solid;
+	border-bottom-color: #ffffff;
 }

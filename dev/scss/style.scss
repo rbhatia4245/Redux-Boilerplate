@@ -2,14 +2,6 @@
 	padding:0;
 	margin:0;
 }
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-30%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
 #head{
 	width:100%;
 	height:44px;
@@ -61,16 +53,21 @@
   padding-bottom:50px;
   overflow:hidden;
 }
-#menu{
+.menu{
   color:#ffffff;
+  position:absolute;
   width:100vw;
   height:100vh;
   background-color: #0d0d0d;
   top:44px;
- animation: 0.5s ease-out 0s 1 slideInFromLeft;
   z-index:1000;  
-  transform: translate3d(0vw,0,0);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
   overflow:scroll;
+}
+.open{
+  transform: translateX(0);
+  position:fixed;
 }
 #hello{
   padding-top:35px;
@@ -117,10 +114,10 @@
   text-align: left;
   color: #ffffff;
 }
-#menu ul{
+.menu ul{
   margin-top:80px;
 }
-#menu li{
+.menu li{
    width: 301px;
   height: 133px;
   opacity: 0.1;
@@ -136,13 +133,13 @@
   padding-left:169px;
   padding-bottom:20px;
 }
-#menu li:hover{
+.menu li:hover{
   opacity:1
 }
-#menu li:active{
+.menu li:active{
   opacity:1
 }
-#menu p{
+.menu p{
   width:21px;
   height:30px;
   color:#ffffff;

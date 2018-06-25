@@ -5,10 +5,17 @@ import {selectTab} from '../actions/tab.js';
 import '../../scss/tabstyle.scss';
  class Tabs extends Component {
  	render(){
+ 		let filmclass="films";
+ 		let visualclass="visuals-active";
+ 		if(!this.props.tabdisplay)
+ 		{
+ 			filmclass="films-active";
+ 			visualclass="visuals";
+ 		}
  		return(
  			<div className='tabs'>
- 			<button type="button" id="films" onClick={()=>this.props.selectTab('FILM')}>FILMS & MOTIONS</button>
- 			<button type="button" id= "visuals" onClick={()=>this.props.selectTab('VISUAL')}>VISUAL DESIGNS</button>
+ 			<button type="button" className={filmclass} onClick={()=>this.props.selectTab('FILM')}>FILMS & MOTIONS</button>
+ 			<button type="button" className={visualclass} onClick={()=>this.props.selectTab('VISUAL')}>VISUAL DESIGNS</button>
  			</div>
  			);
  	}
