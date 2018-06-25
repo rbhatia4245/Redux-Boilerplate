@@ -7,6 +7,7 @@
 	padding-top:43px;
 	color:#ffffff;
 	height:60px;
+	width:100vw;
 }
 .tabs button{
 	background-color:#000000;
@@ -26,11 +27,11 @@
  	border-style: none;
 	border-bottom-style: solid;
 	border-bottom-color: #ffffff;
-	margin-left:37vw;
+	margin-left:25vw;
 }
 .films{
 	border-style: none;
-	margin-left:37vw;
+	margin-left:25vw;
 	}
 .visuals{
 	border-style: none;
@@ -39,4 +40,18 @@
 	border-style: none;
 	border-bottom-style: solid;
 	border-bottom-color: #ffffff;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 30vw 30vw 30vw;
+	grid-template-rows:11vh 11vh 11vh;
+	grid-gap: 2vw 2vw;
+	justify-content:end;
+
+}
+#youtube{
+	width:100vw;
+}
+#designs{
+	width:100vw;
 }
