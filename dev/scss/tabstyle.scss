@@ -4,54 +4,83 @@
 }
 .tabs{
 	background-color:#000000;
-	padding-top:43px;
-	color:#ffffff;
-	height:60px;
-	width:100vw;
+	padding-top:4%;
+	height:8%;
+	width:100%;
+	overflow-x:hidden;
+	padding-bottom:3%;
+}
+.tabsvisuals{
+	background-color:#ffffff;
+	padding-top:4%;
+	height:8%;
+	width:100%;	
+	overflow-x:hidden;
+	padding-bottom:3%;
 }
 .tabs button{
 	background-color:#000000;
-	color:#ffffff;
 	font-family:'Source Sans Pro';
-	 font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  width:20vw;
-  height:40px;
-  outline:none;
-  transition: border-style 0.3s ease-in;
-	
+	transition:0.08s ease-out;
+  	width:10%;
+  	height:4%;
+  	outline:none;
+  	letter-spacing:0.2em;
+}
+.tabs button:hover{
+	opacity:0.4;
+}
+.tabsvisuals button:hover{
+	opacity:0.4;
+}
+.tabsvisuals button{
+	background-color: #ffffff;
+	font-family:'Source Sans Pro';
+	transition:0.08s ease-out;
+  	width:10%;
+  	height:4%;
+  	letter-spacing:0.2em;
+  	outline:none;
 }
  .films-active{
  	border-style: none;
 	border-bottom-style: solid;
 	border-bottom-color: #ffffff;
-	margin-left:25vw;
+	margin-left:40%;
+	color:#ffffff;
 }
 .films{
 	border-style: none;
-	margin-left:25vw;
+	margin-left:40%;
+	color:#b3b3b3;
 	}
+.visuals-active {
+	border-style:none;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	color:#000000;
+	margin-left:2%;
+}
 .visuals{
-	border-style: none;
+	border-style:none;
+	color:#737373;
+	margin-left:2%;
 }
-.visuals-active{
-	border-style: none;
-	border-bottom-style: solid;
-	border-bottom-color: #ffffff;
+#youtubegallery{
+	background-color:#000000;
+	width:100%;
 }
-.grid-container{
-	display: grid;
-	grid-template-columns: 30vw 30vw 30vw;
-	grid-template-rows:11vh 11vh 11vh;
-	grid-gap: 2vw 2vw;
-	justify-content:end;
-
+#youtubegallery .thumbnail{
+	padding-right:1.5%;
+	border-radius:none;
+	background-color:#000000;
+	border:none;
+	object-fit:cover;
 }
-#youtube{
-	width:100vw;
-}
-#designs{
-	width:100vw;
+#designgallery .thumbnail{
+	padding-right:1.5%;
+	border-radius:none;
+	background-color:#ffffff;
+	border:none;
+	object-fit:cover;	
 }

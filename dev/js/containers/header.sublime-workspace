@@ -1,0 +1,271 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"visual",
+				"visualclass"
+			],
+			[
+				"map",
+				"mapStateToProps"
+			],
+			[
+				"menu",
+				"menudisplay"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"padding",
+				"padding-bottom\tproperty"
+			],
+			[
+				"align",
+				"align-self\tproperty"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"err",
+				"errLineNum"
+			],
+			[
+				"sec",
+				"secondnum"
+			],
+			[
+				"onMo",
+				"onmouseover\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/containers/Menu.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/scss/style.scss",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/reducers/reducer-menu-display.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/reducers/reducer-tab.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/actions/menubutton.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/actions/tab.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/containers/header.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/reducers/index.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/components/App.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/actions/visualtab.js",
+		"/C/Users/rishi/Documents/html practice/Shastraarth Debating Society/template.html",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/src/index.html",
+		"/C/Users/rishi/Desktop/my-app/src/Menu.css",
+		"/C/Users/rishi/Desktop/my-app/src/menubutton.css",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/actions/menuareaclick.js",
+		"/C/Users/rishi/Desktop/my-app/src/index.css",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/scss/style.scss.css",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/reducers/reducer-menu-area.js",
+		"/C/Users/rishi/Desktop/my-app/src/HomeContainer.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/reducers/reducer-users.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/reducers/reducer-active-user.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/actions/index.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/containers/user-detail.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/components/app.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/index.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/containers/user-list.js",
+		"/C/Users/rishi/Documents/backup.txt",
+		"/C/Users/rishi/Desktop/my-app/src/Menu.js",
+		"/C/Users/rishi/Desktop/my-app/src/MenuButton.js",
+		"/C/Users/rishi/Desktop/my-app/public/index.html",
+		"/C/Users/rishi/Desktop/my-app/src/index.js",
+		"/C/Users/rishi/Desktop/react-full-page-master/src/components/Controls.jsx",
+		"/C/Users/rishi/Desktop/my-app/package.json",
+		"/C/Users/rishi/Desktop/React-Boilerplate-master/package.json",
+		"/C/Users/rishi/Desktop/react-full-page-master/package.json",
+		"/C/Users/rishi/Desktop/my-app/src/js/actions.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/Reducers/index.js",
+		"/C/Users/rishi/Desktop/React-Redux-Boilerplate-master/dev/js/Reducers/reducer-users.js",
+		"/C/Users/rishi/Desktop/my-app/src/index.css.txt",
+		"/E/reactApp/main.js",
+		"/E/reactApp/webppack.config.js",
+		"/E/reactApp/index.html",
+		"/E/reactApp/package.json",
+		"/E/React-Boilerplate-master/webppack.config.js",
+		"/E/React-Boilerplate-master/main.js",
+		"/E/React-Boilerplate-master/App.jsx",
+		"/C/Users/rishi/react-hello-world/webpack.config.js",
+		"/E/React-Boilerplate-master/package.json",
+		"/E/React-Boilerplate-master/index.html",
+		"/E/React-Boilerplate-master/package-lock.json",
+		"/E/React-Boilerplate-master/src/demos/00_template/index.html",
+		"/C/Users/rishi/Documents/html practice/Shastraarth Debating Society/css/style.css",
+		"/C/Users/rishi/Documents/html practice/lab practice/emp.html",
+		"/C/Users/rishi/Documents/html practice/lab practice/index.php",
+		"/C/Users/rishi/Documents/html practice/s.html",
+		"/C/Users/rishi/Documents/html practice/lab practice/mgmt.html",
+		"/C/Users/rishi/Documents/html practice/lab practice/css/style.css",
+		"/C/Users/rishi/Documents/html practice/practice/index.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 36.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "header.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 184.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

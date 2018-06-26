@@ -1,7 +1,7 @@
 export default function(state = null, action) {
 	switch(action.type){
 		case 'MENU_CLICKED':
-			return action.payload;
+			return !state;
 			break;
 			case 'MENU_AREA':
 			return null;

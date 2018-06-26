@@ -7,13 +7,15 @@ import '../../scss/tabstyle.scss';
  	render(){
  		let filmclass="films";
  		let visualclass="visuals-active";
+ 		let tabclass="tabsvisuals";
  		if(!this.props.tabdisplay)
  		{
  			filmclass="films-active";
  			visualclass="visuals";
+ 			tabclass="tabs"
  		}
  		return(
- 			<div className='tabs'>
+ 			<div className={tabclass}>
  			<button type="button" className={filmclass} onClick={()=>this.props.selectTab('FILM')}>FILMS & MOTIONS</button>
  			<button type="button" className={visualclass} onClick={()=>this.props.selectTab('VISUAL')}>VISUAL DESIGNS</button>
  			</div>

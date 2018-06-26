@@ -8,9 +8,11 @@ import '../../scss/style.scss';
 class Header extends Component {
 	render(){
 		return(
+		<div id="blankhead">	
 		<div id="head">
-			<h1 className="ABHISHEK_JASSAL">Abhishek Jassal</h1>
+			<span className="ABHISHEK_JASSAL">Abhishek Jassal</span>
 			<button type="button" onClick={() => this.props.selectMenu()} >MENU</button>
+		</div>
 		</div>
 		);
 	}

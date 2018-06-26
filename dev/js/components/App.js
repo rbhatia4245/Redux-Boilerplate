@@ -3,9 +3,10 @@ import Header from '../containers/header';
 import Menu from '../containers/menu';
 import Tabs from '../containers/Tabs';
 import Tabcontent from '../containers/Tabcontent';
+import Headerpri from '../containers/Headerpri';
 const App = () => (
     <div>
-    <Header />
+    <Headerpri />
     <Menu />
     <Header />
     <Tabs />
