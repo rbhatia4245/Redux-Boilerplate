@@ -7,10 +7,15 @@ import '../../scss/style.scss';
 
 class Header extends Component {
 	render(){
+		var headClass="white";
+		if(!this.props.tabdisplay)
+		{
+			headClass="black";
+		}
 		return(
-		<div id="blankhead">	
+		<div className={headClass}>	
 		<div id="head">
-			<span className="ABHISHEK_JASSAL">Abhishek Jassal</span>
+			<span className="ABHISHEK_JASSAL">ABHISHEK JASSAL</span>
 			<button type="button" onClick={() => this.props.selectMenu()} >MENU</button>
 		</div>
 		</div>
@@ -19,7 +24,8 @@ class Header extends Component {
 	
 }
 function mapStateToProps(state){
-	return{
+	return {
+		tabdisplay:state.tabdisplay,
 		menudisplay:state.menudisplay
 	}
 }

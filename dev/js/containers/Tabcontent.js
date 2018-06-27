@@ -32,19 +32,19 @@ class Tabcontent extends Component {
 			<div id="designgallery">
 			<div className="container" >
 						<div className="row">
-             			<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/></div></div>
-  						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/></div></div>
- 						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/></div></div>
+             			<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/><div className="caption"><b>Title</b><br/>Tag</div></div></div>
+  						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/><div className="caption"><b>Title</b><br/>Tag</div></div></div>
+ 						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/><div className="caption"><b>Title</b><br/>Tag</div></div></div>
  						</div>
  						<div className="row">
-  						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/></div></div>
-  						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/></div></div>
-  						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/></div></div>
+  						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/><div className="caption"><b>Title</b><br/>Tag</div></div></div>
+  						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/><div className="caption"><b>Title</b><br/>Tag</div></div></div>
+  						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/><div className="caption"><b>Title</b><br/>Tag</div></div></div>
   						</div>
   						<div className="row">
-  						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/></div></div>
-  						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/></div></div>
-  						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/></div></div>
+  						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/><div className="caption"><b>Title</b><br/>Tag</div></div></div>
+  						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/><div className="caption"><b>Title</b><br/>Tag</div></div></div>
+  						<div className="col-md-4"><div className="thumbnail"><img src={require('../../../src/images/demoimage.jpg')}/><div className="caption"><b>Title</b><br/>Tag</div></div></div>
              			</div>
              	</div>
 			</div>

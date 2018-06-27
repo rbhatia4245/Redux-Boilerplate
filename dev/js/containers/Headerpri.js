@@ -10,7 +10,7 @@ class Headerpri extends Component {
 		return(
 		<div id="blankheadpri">	
 		<div id="headpri">
-			<span className="linkedinicon"><a href=""><i className="fab fa-linkedin-in"></i></a></span>
+			<span className="linkedinicon"><a href="https://www.linkedin.com" target="_blank"><i className="fab fa-linkedin-in"></i></a></span>
 			<span className="behanceicon"><a href=""><i className="fab fa-behance"></i></a></span>
 			<button type="button" onClick={() => this.props.selectMenu()} >MENU</button>
 		</div>

@@ -15,15 +15,7 @@ class Menu extends Component {
 						<div>
 							<div id="intro">
 							<h1><span id="hello">hello, my name is</span><br/><div id="abhishek">ABHISHEK JASSAL</div><span id="visualdesigner">Visual Designer & Filmmaker</span></h1>
-							</div>
-							<div className={menuclasses}>
-								<ul>
-					 				<li key="home" onClick={()=>this.props.clickMenu()}><a href="#">Home</a></li>
-									<li key="About" onClick={()=>this.props.clickMenu()}><a href="#">About</a></li>
-					 				<li key="Work" onClick={()=>this.props.clickMenu()}><a href="#"> Work</a></li>
-					 				<li key="Contact" onClick={()=>this.props.clickMenu()}><a href="#">Contact</a></li>
-								</ul>
-								<p className="inneraj">AJ</p>
+							<div className="workLine"><div className="verticaltext"><div className="work">WORK</div><div className="line"></div></div></div>
 							</div>
 						</div>
 
