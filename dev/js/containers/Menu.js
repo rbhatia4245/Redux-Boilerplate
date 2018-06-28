@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {clickMenu} from '../actions/menuareaclick.js';
+import Headerpri from '../containers/Headerpri';
 import '../../scss/style.scss';
 class Menu extends Component {	
 	render(){
@@ -12,12 +13,13 @@ class Menu extends Component {
 		}
 		
 				return(
-						<div>
+							<div id="parenthome">
+							<Headerpri />
 							<div id="intro">
 							<h1><span id="hello">hello, my name is</span><br/><div id="abhishek">ABHISHEK JASSAL</div><span id="visualdesigner">Visual Designer & Filmmaker</span></h1>
 							<div className="workLine"><div className="verticaltext"><div className="work">WORK</div><div className="line"></div></div></div>
 							</div>
-						</div>
+							</div>
 
 			);
 	

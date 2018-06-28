@@ -23,7 +23,6 @@ class App extends React.Component{
 
 		return(
 				    <div className={mainclass}>
-				    <Headerpri />
 				    <div className={menuclasses}> 
 				    <Mainmenu />
 				    </div>

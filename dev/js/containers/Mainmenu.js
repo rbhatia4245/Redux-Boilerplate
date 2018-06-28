@@ -8,12 +8,12 @@ render()
 {
 	                return(
 							<div>
-								<ul>
-					 				<li key="home" onClick={()=>this.props.clickMenu()}><a href="#">Home</a></li>
-									<li key="About" onClick={()=>this.props.clickMenu()}><a href="#">About</a></li>
-					 				<li key="Work" onClick={()=>this.props.clickMenu()}><a href="#"> Work</a></li>
-					 				<li key="Contact" onClick={()=>this.props.clickMenu()}><a href="#">Contact</a></li>
-								</ul>
+									<div id='links'>
+					 				<div><a href="#" onClick={()=>this.props.clickMenu()}>Home</a></div>
+									<div><a href="#"  onClick={()=>this.props.clickMenu()}>About</a></div>
+					 				<div><a href="#" onClick={()=>this.props.clickMenu()}> Work</a></div>
+					 				<div><a href="#" onClick={()=>this.props.clickMenu()}>Contact</a></div>
+					 				</div>
 								<p className="inneraj">AJ</p>
 							</div>
 							);
