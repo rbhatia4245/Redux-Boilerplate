@@ -1,0 +1,143 @@
+*{
+	margin:0;
+	padding:0;
+}
+#head{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:5%;
+  color:#000000;
+  z-index:100;
+  opacity:0.7;
+  overflow:hidden;
+  padding-top:0.6%;
+  background-color:#d9d9d9;
+}
+.ABHISHEK_JASSAL{
+    width: 17em;
+  height: 2em;
+  padding-left:5%;
+  font-family: 'Source Sans Pro';
+  font-size: 1em;
+  font-weight: 900;
+  letter-spacing: 3.2px;
+  text-align: center;
+  color:#000000;
+  opacity:1;
+  }
+#head button{
+    width:170px;
+  height:19px;
+  padding-right:98px;
+  float:right;
+  font-family: 'Source Sans Pro';
+  font-size:1.5rem;
+  font-weight:900;
+  letter-spacing:3.2px;
+  text-align:center;
+  background-color:#d9d9d9;
+  color:#000000;
+  border:none;
+  outline: none;
+  opacity:1;
+}
+#head button:hover{
+  opacity:0.6;
+}
+#youtubevideo{
+	width:100%;
+	height:70vh;
+	text-align:center;
+}
+#youtubevideo iframe{
+	width:70%;
+	height:70%;
+	margin-top:6%;
+	border:none;
+}
+#descripiton{
+text-align:center;
+}
+#category{
+	margin-left:5%;
+	width:50%;
+	height:100%;
+	display:inline-block;
+	left:0;
+	float:left;
+	margin-top:4%;
+}
+#fetchcategory{
+	display:inline-block;
+	margin-left:30%;
+}
+#fetchnotes{
+	display:inline-block;
+	margin-left:35%;
+}
+#title{
+	width:40%;
+	display:inline-block;
+	padding-top:2%;
+}
+#nametitle{
+	font-size:20px;
+	font-weight:700;
+	font-family:Anton;
+	letter-spacing:1px;
+}
+#subtitle{
+	width: 67px;
+  height: 19px;
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #555555;
+}
+#titletext{
+	 width: 80%;
+  height: 13%;
+  font-family: 'Source Sans Pro';
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #555555;
+}
+.pager li>a{
+	border:none;
+	color:#ffffff;
+	background-color:#000000;
+}
+.pager li>a:hover{
+	background-color:#000000;
+	opacity:0.7;	
+}
+.container{
+	background-color:#000000;
+	padding-left:0;
+	padding-right:0;
+	margin-left:0;
+	margin-right:0;
+	width:100%;
+}
+.footervs{
+	padding-top:3%;
+	padding-bottom:3%;
+	width:100%;
+	text-align:center;
+	background-color:#ffffff;
+	font-family:'Source Sans Pro';
+	font-size:1.5rem;
+	color:#000000;
+}
